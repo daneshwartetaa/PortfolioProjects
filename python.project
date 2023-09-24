@@ -1,0 +1,171 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "78fdba83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter your nameDaneshwar Teta\n",
+      "Enter your weight in pounds: 147\n",
+      "Enter your height in inch: 69\n",
+      "21.705734089477\n",
+      "Daneshwar Teta, You are normal weight. Start training more hard, stay hard!\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input('Enter your name')\n",
+    "weight = int(input('Enter your weight in pounds: '))\n",
+    "height = int(input('Enter your height in inch: '))\n",
+    "\n",
+    "BMI = (weight * 703) / (height * height)\n",
+    "print(BMI)\n",
+    "\n",
+    "if BMI>0:\n",
+    "    if(BMI<18.5):\n",
+    "        print(name +\", You are underweight.\")\n",
+    "    elif(BMI<=24.9):\n",
+    "        print(name +\", You are normal weight. Start training more hard, stay hard!\")\n",
+    "    elif(BMI<29.9):\n",
+    "        print(name +\", You are overweight.\")\n",
+    "    elif(BMI<34.9):\n",
+    "        print(name +\", You are obese.\")\n",
+    "    elif(BMI<39.9):\n",
+    "        print(name +\", You are severly obese.\")\n",
+    "    else:\n",
+    "        print(name +\", You are morbidly obese\")\n",
+    "else:\n",
+    "    print('Enter valid inputs')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "de3c55ee",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9d5e5a17",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Under 18.5\tUnderweight\tMinimal\n",
+    "18.5 - 24.9\tNormal Weight\tMinimal\n",
+    "25 - 29.9\tOverweight\tIncreased\n",
+    "30 - 34.9\tObese\tHigh\n",
+    "35 - 39.9\tSeverely Obese\tVery High\n",
+    "40 and over\tMorbidly Obese\tExtremely High"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "d2fa2e6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "You are normal weight.\n"
+     ]
+    }
+   ],
+   "source": [
+    "if BMI>0:\n",
+    "    if(BMI<18.5):\n",
+    "        print(name +, \"You are underweight.\")\n",
+    "    elif(BMI<=24.9):\n",
+    "        print(name +, \"You are normal weight.\")\n",
+    "    elif(BMI<29.9):\n",
+    "        print(name +, \"You are overweight.\")\n",
+    "    elif(BMI<34.9):\n",
+    "        print(name +, \"You are obese.\")\n",
+    "    elif(BMI<39.9):\n",
+    "        print(name +, \"You are severly obese.\")\n",
+    "    else:\n",
+    "        print(\"You are morbidly obese\")\n",
+    "        else:\n",
+    "            print('Enter valid inputs')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "66ad4794",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c3ad088a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "db8fda33",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "46b41f92",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1a69f135",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d84619ba",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
